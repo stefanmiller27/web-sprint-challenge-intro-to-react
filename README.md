@@ -79,8 +79,17 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+react is a free and open source front end js library used to build user interfaces based on UI components. it is used as a base in developing single page/ mobile applications
+
 1. Describe component state.
+
+setState schedules an update to a components state object. a lice of state is a funtion, a piece of data used when rendered at a specific time.
+
 1. Describe props.
 
-props are data passed from parents to child
+props are pieces of data passed from a parent component to a child component
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+side effects are basically anything that affects something outside of the scope of a function being executed. you sync them with whats called a dependency array to make them run at a specific render.
