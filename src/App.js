@@ -22,7 +22,7 @@ import Details from './components/Details';
   const [error, setError] = useState(null);
 
   const openDetails = (id) => {
-    const character = character.filter(item => item.id === id);
+    const character = characters.filter(item => item.id === id);
     setCurrentCharacter(character);
   };
 
