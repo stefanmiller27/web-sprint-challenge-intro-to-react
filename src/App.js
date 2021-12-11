@@ -6,10 +6,10 @@ import Character from './components/Character';
 import Details from './components/Details';
 
 
-const App = () => {
 
 
-  
+  export default function App() {
+
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
 
@@ -37,7 +37,7 @@ const App = () => {
       const characters = response.data;
 
       let id = 1;
-      characters.forEach(item => item.id = id++ );
+      characters.forEach(item => item.id = id++);
 
       setCharacters(characters);
     })
@@ -93,4 +93,4 @@ return (
 );
 }
 
-export default App;
+
